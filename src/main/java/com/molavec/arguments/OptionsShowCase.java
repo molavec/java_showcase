@@ -6,6 +6,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 
+/**
+ * Print floats semicolon separated. If you use the -t option
+ * it show time, if you use the -s [SEPARATOR] it separates
+ * float whit SEPARATOR char 
+ * 
+ * @author molavec
+ *
+ */
+
 public class OptionsShowCase {
 
 	private static boolean printTime = false;
@@ -26,7 +35,7 @@ public class OptionsShowCase {
 			return;
 		}
 		
-		String s ="!";
+		String s ="";
 		if(printTime){
 			DateFormat dateformat = new SimpleDateFormat("HH:mm:ss -"); 
 			s= dateformat.format(new Date());
