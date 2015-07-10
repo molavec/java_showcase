@@ -33,19 +33,19 @@ dependencies {
 /**
 MANAGE COMMAND LINE ARGUMENTS
 */
-task args01(type:JavaExec) {
+task cmdline01(type:JavaExec) {
    main = 'com.molavec.arguments.SimpleArgumentsShowCase'
    args = ['arg1', 'arg2']
    classpath = sourceSets.main.runtimeClasspath
 }
 
-task args02(type:JavaExec) {
+task cmdline02(type:JavaExec) {
    main = 'com.molavec.arguments.OptionsShowCase'
    args = ['-h']
    classpath = sourceSets.main.runtimeClasspath
 }
 
-task args03(type:JavaExec) {
+task cmdline03(type:JavaExec) {
    main = 'com.molavec.arguments.ApacheCommonsCLIShowCase'
    args = ['-h', '-t', '--separator-char', '|']
    classpath = sourceSets.main.runtimeClasspath
