@@ -4,6 +4,7 @@
 #Motivation
   Here is a showcases to re-use example codes that show how to solve different problems or shows how to use some typical libs. I hope to accelerate the learning curve, use typical design-patterns or avoid wasted time to recover ways to do things from old useful code, all in a formal way to do it that could be useful to share knowledges in working teams. 
 
+
 ###Pure Java 
   In this showcase I use pure Java libs, avoiding use frameworks or big pieces of codes. Keep it simply to solve simply!  
 
@@ -18,18 +19,16 @@
 + gradle 2.4
 
 ### Console
-Get it!!
+Download all showcase!!
 
     $ git clone https://github.com/molavec/java_showcase.git
 
-Go to specific project and execute!!
+Execute!!
 
-	$ cd [projectNameDirectory]
     $ gradle -q [task]
 
 Example:
 
-    $ cd commandLine
     $ gradle -q cmdline01
 
 Chekout **build.gradle** to know about which class is used by the task. 
@@ -45,6 +44,7 @@ Chekout **build.gradle** to know about which class is used by the task.
 ###Files and Documents
 **projectNameDirectory:** file
 + file01 - Simple Text file Reader.
++ file02 - Modify an OpenOffice **.ods** file with [JOpenDocument](http://www.jopendocument.org).
 
 ##Do you want to contribute??
 Contact me at [@molavec](https://twitter.com/molavec)
