@@ -16,7 +16,6 @@ task hello << cl
 project(':commandLine') {
     task hello << cl
 }
-
 project(':file') {
     task hello << cl
 }
