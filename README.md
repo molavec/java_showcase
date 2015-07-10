@@ -9,7 +9,7 @@
   In this showcase I use pure Java libs, avoiding use frameworks or big pieces of codes. Keep it simply to solve simply!  
 
 ###Why I am not use JUnit?
-  The main aim of unit test is check reusable code and libs. In this concept I not trying to generate reusable code. Instead, I want to get a start point of how to use code reusable code. To avoid many instructions to get run code I use the power of Gradle to simplify how to run successfully code. 
+  The main aim of unit test is check reusable code and libs. In this concept I am not trying to generate reusable code. Instead, I want to get a start point of how to use code reusable code. To avoid many instructions to get run code I use the power of Gradle to simplify how to run successfully code. 
 
 
 #How to use
@@ -50,8 +50,11 @@ Chekout **build.gradle** to know about which class is used by the task.
 Contact me at [@molavec](https://twitter.com/molavec)
 
 #TODO
-+ Use [multi-project-builds](https://docs.gradle.org/current/userguide/multi_project_builds.html) with gradle.
 + Improve documentation
 + automatize javadoc
+
+#Change log
+###2015/07/10
++ Use [multi-project-builds](https://docs.gradle.org/current/userguide/multi_project_builds.html) with gradle.
 
 
