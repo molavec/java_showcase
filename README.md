@@ -13,47 +13,41 @@
 
 #How to use
 
-###Requirements
+### Requirecmdlines
 + Java 8
 + gradle 2.4
 
-
+### Console
 Get it!!
 
-    git clone https://github.com/molavec/java_showcase.git
+    $ git clone https://github.com/molavec/java_showcase.git
 
-Execute!!
+Go to specific project and execute!!
 
-    gradle [task]
+	$ cd [projectNameDirectory]
+    $ gradle -q [task]
 
 Example:
-    
-    gradle args01
+
+    $ cd commandLine
+    $ gradle -q cmdline01
 
 Chekout **build.gradle** to know about which class is used by the task. 
 
-#Showcases implemented
+#Showcases (projects) implemented
 
-###command line
+###Command Line
+**projectNameDirectory:** commandLine
 + cmdline01 - Simple example how to use command line arguments.
 + cmdline02 - Multiple Arguments and Options Management 
 + cmdline03 - an example of how to use Options Management with [Apache Commons CLI](http://commons.apache.org/proper/commons-cli/index.html)
 
 ###Files and Documents
-+
-
-###DataBases
-+
-
-###Serial Port
-+
-
+**projectNameDirectory:** file
++ file01 - Simple Text file Reader.
 
 ##Do you want to contribute??
 Contact me at [@molavec](https://twitter.com/molavec)
-
-
-
 
 #TODO
 + Use [multi-project-builds](https://docs.gradle.org/current/userguide/multi_project_builds.html) with gradle.

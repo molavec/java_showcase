@@ -16,10 +16,4 @@ include 'api'
 include 'services:webservice'
 */
 
-include 'commandLine'
-include 'file'
-
-rootProject.name = 'java_showcase'
-
-
-
+rootProject.name = 'commandLine'

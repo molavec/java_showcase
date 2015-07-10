@@ -1,4 +1,4 @@
-package com.molavec.arguments;
+package com.molavec.commandLine;
 
 /**
  * Example Class that print first and second argument
