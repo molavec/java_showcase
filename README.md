@@ -26,10 +26,14 @@ Download all showcase!!
 
 Execute!!
 
+    $ cd  [projectNameDirectory]
+    $ gradle build
     $ gradle -q [task]
 
 Example:
 
+    $ cd commandLine
+    $ gradle build
     $ gradle -q cmdline01
 
 Chekout **build.gradle** to know about which class is used by the task. 
@@ -48,9 +52,13 @@ Chekout **build.gradle** to know about which class is used by the task.
 + file02 - Example of how to serialize an Object.
 + file03 - Modify an OpenOffice **.ods** file with [JOpenDocument](http://www.jopendocument.org).
 
-###Files and Documents
+###Encription
 **projectNameDirectory:** encryption
 + encrypt01 - A simple MD5 example using java.security.* package.
+
+###Random
+**projectNameDirectory:** random
++ random01 - Genera números aleatorios utilizando la clase Well19937c del paquete **org.apache.commons.math3.random** 
 
 ##Do you want to contribute??
 Contact me at [@molavec](https://twitter.com/molavec)

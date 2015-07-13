@@ -16,12 +16,4 @@ include 'api'
 include 'services:webservice'
 */
 
-include 'commandLine'
-include 'file'
-include 'encryption'
-include 'random'
-
-rootProject.name = 'java_showcase'
-
-
-
+rootProject.name = 'random'
