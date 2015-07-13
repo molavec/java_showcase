@@ -4,6 +4,7 @@
 #Motivation
   Here is a showcases to re-use example codes that show how to solve different problems or shows how to use some typical libs. I hope to accelerate the learning curve, use typical design-patterns or avoid wasted time to recover ways to do things from old useful code, all in a formal way to do it that could be useful to share knowledges in working teams. 
 
+ In a simple phrase: "It's not about reuse the code, it's about reuse the learning".
 
 ###Pure Java 
   In this showcase I use pure Java libs, avoiding use frameworks or big pieces of codes. Keep it simply to solve simply!  
@@ -44,7 +45,12 @@ Chekout **build.gradle** to know about which class is used by the task.
 ###Files and Documents
 **projectNameDirectory:** file
 + file01 - Simple Text file Reader.
-+ file02 - Modify an OpenOffice **.ods** file with [JOpenDocument](http://www.jopendocument.org).
++ file02 - Example of how to serialize an Object.
++ file03 - Modify an OpenOffice **.ods** file with [JOpenDocument](http://www.jopendocument.org).
+
+###Files and Documents
+**projectNameDirectory:** encryption
++ encrypt01 - A simple MD5 example using java.security.* package.
 
 ##Do you want to contribute??
 Contact me at [@molavec](https://twitter.com/molavec)

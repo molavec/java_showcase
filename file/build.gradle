@@ -40,6 +40,12 @@ task file01(type:JavaExec) {
 }
 
 task file02(type:JavaExec) {
+   main = 'com.molavec.serialization.ObjectPersisterShowCase'
+   args = []
+   classpath = sourceSets.main.runtimeClasspath
+}
+
+task file03(type:JavaExec) {
    main = 'com.molavec.jopendocument.ODSShowCase'
    args = []
    classpath = sourceSets.main.runtimeClasspath
