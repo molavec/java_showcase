@@ -16,10 +16,16 @@ task hello << cl
 project(':commandLine') {
     task hello << cl
 }
-project(':file') {
+project(':communicationProtocols') {
     task hello << cl
 }
 project(':encryption') {
+    task hello << cl
+}
+project(':file') {
+    task hello << cl
+}
+project(':random') {
     task hello << cl
 }
 
@@ -29,4 +35,3 @@ task showMeCache << {
   configurations.compile.each { println it }
 }
 
-//TODO: realizar task para ejecutar todos los tasks de todos los projectos.-

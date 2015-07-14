@@ -21,7 +21,7 @@ repositories {
 dependencies {
     // The production code uses the SLF4J logging API at compile time
     compile 'org.slf4j:slf4j-api:1.7.12'
-    compile 'org.apache.shiro:shiro-core:1.2.1'
+    compile 'org.scream3r:jssc:2.8.0'
     
 
     // Declare the dependency for your favourite test framework you want to use in your tests.
@@ -34,8 +34,8 @@ dependencies {
 /**
 MANAGE COMMAND LINE ARGUMENTS
 */
-task encrypt01(type:JavaExec) {
-   main = 'com.molavec.encryption.EncryptorShowCase'
+task serial01(type:JavaExec) {
+   main = 'com.molavec.serial.SerialCommunicatorShowCase'
    args = []
    classpath = sourceSets.main.runtimeClasspath
 }

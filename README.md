@@ -15,9 +15,9 @@
 
 #How to use
 
-### Requirecmdlines
+### Require
 + Java 8
-+ gradle 2.4
++ gradle 2.4 (For an easy install use [GVM Tool](http://gvmtool.net).
 
 ### Console
 Download all showcase!!
@@ -46,6 +46,10 @@ Chekout **build.gradle** to know about which class is used by the task.
 + cmdline02 - Multiple Arguments and Options Management 
 + cmdline03 - an example of how to use Options Management with [Apache Commons CLI](http://commons.apache.org/proper/commons-cli/index.html)
 
+###Communication Protocols
+**projectNameDirectory:** communicationProtocols
++ serial01 - Simple communication example using [org.scream3r.serial](https://code.google.com/p/java-simple-serial-connector/)
+
 ###Files and Documents
 **projectNameDirectory:** file
 + file01 - Simple Text file Reader.
@@ -54,21 +58,25 @@ Chekout **build.gradle** to know about which class is used by the task.
 
 ###Encription
 **projectNameDirectory:** encryption
-+ encrypt01 - A simple MD5 example using java.security.* package.
++ encrypt01 - A simple MD5 example using java.security.\* package.
 
 ###Random
 **projectNameDirectory:** random
 + random01 - Genera números aleatorios utilizando la clase Well19937c del paquete **org.apache.commons.math3.random** 
 
+
+##Troubleshooting
++ [Could not find method jcenter() for arguments \[\] on repository container](http://stackoverflow.com/questions/27470443/could-not-find-method-jcenter-for-arguments-on-repository-container)
+
+Install the last gradle version. check if you current version it over 1.7 with **'gradle -version'**
+
+
 ##Do you want to contribute??
 Contact me at [@molavec](https://twitter.com/molavec)
 
-#TODO
-+ Improve documentation
-+ automatize javadoc
 
-#Change log
-###2015/07/10
-+ Use [multi-project-builds](https://docs.gradle.org/current/userguide/multi_project_builds.html) with gradle.
+##TODO
++ In enryption make an example with apache.shiro
++ automatize javadoc
 
 
