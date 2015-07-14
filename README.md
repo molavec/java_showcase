@@ -71,6 +71,8 @@ Chekout **build.gradle** to know about which class is used by the task.
 | file03    	| Modify an OpenOffice **.ods** file with [JOpenDocument](http://www.jopendocument.org).	|
 | file04    	| Simple example how to read a properties file.	|
 | file05   		| Simple example how ro write in a properties file.	|
+| file06   		| Simple example how ro write in a json file using [gson library](https://github.com/google/gson).	|
+| file07   		| Simple example how ro read in a json file using [gson library](https://github.com/google/gson).	|
 ---
 
 ####**Encription - [projectNameDirectory]: encryption**
