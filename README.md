@@ -40,6 +40,11 @@ Chekout **build.gradle** to know about which class is used by the task.
 
 #Showcases (projects) implemented
 
+###Java Basic
+**projectNameDirectory:** basics
++ poo01 - Object Oriented Programming Simple example how to use Classes.
++ poo02 - Object Oriented Programming Simple example how to use Heritage.
+
 ###Command Line
 **projectNameDirectory:** commandLine
 + cmdline01 - Simple example how to use command line arguments.
