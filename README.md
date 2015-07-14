@@ -2,15 +2,15 @@
 #####by Miguel Olave (www.molavec.com)
 
 #Motivation
-  Here is a showcases to re-use example codes that show how to solve different problems or shows how to use some typical libs. I hope to accelerate the learning curve, use typical design-patterns or avoid wasted time to recover ways to do things from old useful code, all in a formal way to do it that could be useful to share knowledges in working teams. 
+  Here is a showcases to re-use example codes that show how to solve different problems or shows how to use some typical libs. I hope to accelerate the learning curve, use typical design-patterns or avoid wasted time to recover ways to do things from old useful code, all in a formal way to do it that could be useful to share knowledges in working teams.
 
  In a simple phrase: "It's not about reuse the code, it's about reuse the learning".
 
-###Pure Java 
+###Pure Java
   In this showcase I use pure Java libs, avoiding use frameworks or big pieces of codes. Keep it simply to solve simply!  
 
 ###Why I am not use JUnit?
-  The main aim of unit test is check reusable code and libs. In this concept I am not trying to generate reusable code. Instead, I want to get a start point of how to use code reusable code. To avoid many instructions to get run code I use the power of Gradle to simplify how to run successfully code. 
+  The main aim of unit test is check reusable code and libs. In this concept I am not trying to generate reusable code. Instead, I want to get a start point of how to use code reusable code. To avoid many instructions to get run code I use the power of Gradle to simplify how to run successfully code.
 
 
 #How to use
@@ -36,39 +36,51 @@ Example:
     $ gradle build
     $ gradle -q cmdline01
 
-Chekout **build.gradle** to know about which class is used by the task. 
+Chekout **build.gradle** to know about which class is used by the task.
 
 #Showcases (projects) implemented
+---
+####**Java Basic - [projectNameDirectory]: basics**
+| [task] 	      |                 Description                        	|
+|--------------	|:-------------------------------------------------:	|
+| poo01    	| Object Oriented Programming Simple example how to use Classes. 	|
+| poo02    	| Object Oriented Programming Simple example how to use Heritage.           |
+---
 
-###Java Basic
-**projectNameDirectory:** basics
-+ poo01 - Object Oriented Programming Simple example how to use Classes.
-+ poo02 - Object Oriented Programming Simple example how to use Heritage.
+####**Command Line - [projectNameDirectory]: commandLine)**
+| [task] 	      |                 Description                        	|
+|--------------	|:-------------------------------------------------:	|
+| cmdline01    	| Simple example how to use command line arguments. 	|
+| cmdline02    	| Multiple Arguments and Options Management           |
+| cmdline03    	| an example of how to use Options Management with [Apache Commons CLI](http://commons.apache.org/proper/commons-cli/index.html)          |
+---
 
-###Command Line
-**projectNameDirectory:** commandLine
-+ cmdline01 - Simple example how to use command line arguments.
-+ cmdline02 - Multiple Arguments and Options Management 
-+ cmdline03 - an example of how to use Options Management with [Apache Commons CLI](http://commons.apache.org/proper/commons-cli/index.html)
+####**Communication Protocols** - [projectNameDirectory]: communicationProtocols
+| [task] 	      |                 Description                        	|
+|--------------	|:-------------------------------------------------:	|
+| serial01    	| Simple serial communication example using [org.scream3r.serial](https://code.google.com/p/java-simple-serial-connector/) 	|
+---
 
-###Communication Protocols
-**projectNameDirectory:** communicationProtocols
-+ serial01 - Simple communication example using [org.scream3r.serial](https://code.google.com/p/java-simple-serial-connector/)
 
-###Files and Documents
-**projectNameDirectory:** file
-+ file01 - Simple Text file Reader.
-+ file02 - Example of how to serialize an Object.
-+ file03 - Modify an OpenOffice **.ods** file with [JOpenDocument](http://www.jopendocument.org).
+####**Files and Documents - [projectNameDirectory]: file**
+| [task] 	      |                 Description                        	|
+|--------------	|:-------------------------------------------------:	|
+| file01    	| Simple Text file Reader.	|
+| file02    	| Example of how to serialize an Object.	|
+| file03    	| Modify an OpenOffice **.ods** file with [JOpenDocument](http://www.jopendocument.org).	|
+---
 
-###Encription
-**projectNameDirectory:** encryption
-+ encrypt01 - A simple MD5 example using java.security.\* package.
+####**Encription - [projectNameDirectory]: encryption**
+| [task] 	      |                 Description                        	|
+|--------------	|:-------------------------------------------------:	|
+| encrypt01 | A simple MD5 example using java.security.\* package.	|
+---
 
-###Random
-**projectNameDirectory:** random
-+ random01 - Genera números aleatorios utilizando la clase Well19937c del paquete **org.apache.commons.math3.random** 
-
+####**Random - [projectNameDirectory]: random**
+| [task] 	      |                 Description                        	|
+|--------------	|:-------------------------------------------------:	|
+| random01    	| Genera números aleatorios utilizando el paquete [org.apache.commons.math3.random](http://commons.apache.org/proper/commons-math/)	|
+---
 
 ##Troubleshooting
 + [Could not find method jcenter() for arguments \[\] on repository container](http://stackoverflow.com/questions/27470443/could-not-find-method-jcenter-for-arguments-on-repository-container)
@@ -83,5 +95,3 @@ Contact me at [@molavec](https://twitter.com/molavec)
 ##TODO
 + In enryption make an example with apache.shiro
 + automatize javadoc
-
-
