@@ -51,6 +51,18 @@ task file03(type:JavaExec) {
    classpath = sourceSets.main.runtimeClasspath
 }
 
+task file04(type:JavaExec) {
+   main = 'com.molavec.properties.PropertiesLoader'
+   args = []
+   classpath = sourceSets.main.runtimeClasspath
+}
+
+task file05(type:JavaExec) {
+   main = 'com.molavec.properties.PropertiesWriter'
+   args = []
+   classpath = sourceSets.main.runtimeClasspath
+}
+
 //Shows dependencies
 task showMeCache << {
   configurations.compile.each { println it }

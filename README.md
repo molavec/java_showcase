@@ -45,6 +45,7 @@ Chekout **build.gradle** to know about which class is used by the task.
 |--------------	|:-------------------------------------------------:	|
 | poo01    	| Object Oriented Programming Simple example how to use Classes. 	|
 | poo02    	| Object Oriented Programming Simple example how to use Heritage.           |
+| poo03    	| Simple Example about **static** variables.           |
 ---
 
 ####**Command Line - [projectNameDirectory]: commandLine)**
@@ -68,6 +69,8 @@ Chekout **build.gradle** to know about which class is used by the task.
 | file01    	| Simple Text file Reader.	|
 | file02    	| Example of how to serialize an Object.	|
 | file03    	| Modify an OpenOffice **.ods** file with [JOpenDocument](http://www.jopendocument.org).	|
+| file04    	| Simple example how to read a properties file.	|
+| file05   		| Simple example how ro write in a properties file.	|
 ---
 
 ####**Encription - [projectNameDirectory]: encryption**
