@@ -28,6 +28,9 @@ project(':encryption') {
 project(':file') {
     task hello << cl
 }
+project(':logger') {
+    task hello << cl
+}
 project(':random') {
     task hello << cl
 }

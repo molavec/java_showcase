@@ -81,6 +81,12 @@ Chekout **build.gradle** to know about which class is used by the task.
 | encrypt01 | A simple MD5 example using java.security.\* package.	|
 ---
 
+####**Logger - [projectNameDirectory]: logger**
+| [task] 	      |                 Description                        	|
+|--------------	|:-------------------------------------------------:	|
+| logger01 | A simple example using SFL4J y LOG4J.	|
+---
+
 ####**Random - [projectNameDirectory]: random**
 | [task] 	      |                 Description                        	|
 |--------------	|:-------------------------------------------------:	|
