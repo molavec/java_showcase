@@ -22,13 +22,16 @@ project(':commandLine') {
 project(':communicationProtocols') {
     task hello << cl
 }
+project(':designPattern') {
+    task hello << cl
+}
 project(':encryption') {
     task hello << cl
 }
-project(':file') {
+project(':logger') {
     task hello << cl
 }
-project(':logger') {
+project(':persistence') {
     task hello << cl
 }
 project(':random') {

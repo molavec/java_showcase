@@ -1,5 +1,5 @@
 #Java Show Case
-#####by Miguel Olave (www.molavec.com)
+#####by Miguel Olave ([www.molavec.com](http://www.molavec.com))
 
 #Motivation
   Here is a showcases to re-use example codes that show how to solve different problems or shows how to use some typical libs. I hope to accelerate the learning curve, use typical design-patterns or avoid wasted time to recover ways to do things from old useful code, all in a formal way to do it that could be useful to share knowledges in working teams.
@@ -62,17 +62,19 @@ Chekout **build.gradle** to know about which class is used by the task.
 | serial01    	| Simple serial communication example using [org.scream3r.serial](https://code.google.com/p/java-simple-serial-connector/) 	|
 ---
 
+####**Design Patterns - [projectNameDirectory]: designPattern**
 
-####**Files and Documents - [projectNameDirectory]: file**
+(more info: [tutorialspoint.com](http://www.tutorialspoint.com/design_pattern/design_pattern_quick_guide.htm))
+
 | [task] 	      |                 Description                        	|
 |--------------	|:-------------------------------------------------:	|
-| file01    	| Simple Text file Reader.	|
-| file02    	| Example of how to serialize an Object.	|
-| file03    	| Modify an OpenOffice **.ods** file with [JOpenDocument](http://www.jopendocument.org).	|
-| file04    	| Simple example how to read a properties file.	|
-| file05   		| Simple example how ro write in a properties file.	|
-| file06   		| Simple example how ro write in a json file using [gson library](https://github.com/google/gson).	|
-| file07   		| Simple example how ro read in a json file using [gson library](https://github.com/google/gson).	|
+| dp01 | Factory Pattern	|
+| dp02 | Abstract Factory Pattern	|
+| dp03 | Singleton Pattern	|
+| dp04 | Builder Pattern	|
+| dp05 | Prototype Pattern	|
+| dp06 | Adapter Pattern	|
+| dp07 | Data Access Object Pattern	|
 ---
 
 ####**Encription - [projectNameDirectory]: encryption**
@@ -85,6 +87,18 @@ Chekout **build.gradle** to know about which class is used by the task.
 | [task] 	      |                 Description                        	|
 |--------------	|:-------------------------------------------------:	|
 | logger01 | A simple example using SFL4J y LOG4J.	|
+---
+
+####**Persistence - [projectNameDirectory]: persistence**
+| [task] 	      |                 Description                        	|
+|--------------	|:-------------------------------------------------:	|
+| persistence01    	| Simple Text file Reader.	|
+| persistence02    	| Example of how to serialize an Object.	|
+| persistence03    	| Modify an OpenOffice **.ods** file with [JOpenDocument](http://www.jopendocument.org).	|
+| persistence04    	| Simple example how to read a properties file.	|
+| persistence05   		| Simple example how ro write in a properties file.	|
+| persistence06   		| Simple example how ro write in a json file using [gson library](https://github.com/google/gson).	|
+| file07   		| Simple example how ro read in a json file using [gson library](https://github.com/google/gson).	|
 ---
 
 ####**Random - [projectNameDirectory]: random**

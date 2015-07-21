@@ -16,16 +16,4 @@ include 'api'
 include 'services:webservice'
 */
 
-include 'basics'
-include 'commandLine'
-include 'communicationProtocols'
-include 'designPattern'
-include 'encryption'
-include 'logger'
-include 'persistence'
-include 'random'
-
-rootProject.name = 'java_showcase'
-
-
-
+rootProject.name = 'designPattern'

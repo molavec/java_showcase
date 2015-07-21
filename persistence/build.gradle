@@ -34,41 +34,41 @@ dependencies {
 /**
 MANAGE COMMAND LINE ARGUMENTS
 */
-task file01(type:JavaExec) {
+task persistence01(type:JavaExec) {
    main = 'com.molavec.file.FileParserShowCase'
    args = []
    classpath = sourceSets.main.runtimeClasspath
 }
 
-task file02(type:JavaExec) {
+task persistence02(type:JavaExec) {
    main = 'com.molavec.serialization.ObjectPersisterShowCase'
    args = []
    classpath = sourceSets.main.runtimeClasspath
 }
 
-task file03(type:JavaExec) {
+task persistence03(type:JavaExec) {
    main = 'com.molavec.jopendocument.ODSShowCase'
    args = []
    classpath = sourceSets.main.runtimeClasspath
 }
 
-task file04(type:JavaExec) {
+task persistence04(type:JavaExec) {
    main = 'com.molavec.properties.PropertiesLoader'
    args = []
    classpath = sourceSets.main.runtimeClasspath
 }
 
-task file05(type:JavaExec) {
+task persistence05(type:JavaExec) {
    main = 'com.molavec.properties.PropertiesWriter'
    args = []
    classpath = sourceSets.main.runtimeClasspath
 }
-task file06(type:JavaExec) {
+task persistence06(type:JavaExec) {
    main = 'com.molavec.json.ToJsonShowCase'
    args = []
    classpath = sourceSets.main.runtimeClasspath
 }
-task file07(type:JavaExec) {
+task persistence07(type:JavaExec) {
    main = 'com.molavec.json.FromJsonShowCase'
    args = []
    classpath = sourceSets.main.runtimeClasspath
