@@ -98,7 +98,8 @@ Chekout **build.gradle** to know about which class is used by the task.
 | persistence04    	| Simple example how to read a properties file.	|
 | persistence05   		| Simple example how ro write in a properties file.	|
 | persistence06   		| Simple example how ro write in a json file using [gson library](https://github.com/google/gson).	|
-| file07   		| Simple example how ro read in a json file using [gson library](https://github.com/google/gson).	|
+| persistence07   		| Simple example how ro read in a json file using [gson library](https://github.com/google/gson).	|
+| persistence08   		| Simple example how use JPA.	|
 ---
 
 ####**Random - [projectNameDirectory]: random**
