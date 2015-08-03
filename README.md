@@ -26,7 +26,7 @@ Download all showcase!!
 
 Execute!!
 
-    $ cd  [projectNameDirectory]
+    $ cd  [Path]
     $ gradle build
     $ gradle -q [task]
 
@@ -40,7 +40,8 @@ Chekout **build.gradle** to know about which class is used by the task.
 
 #Showcases (projects) implemented
 ---
-####**Java Basic - [projectNameDirectory]: basics**
+####**Java Basic**
+#####[Path: basics]
 | [task] 	      |                 Description                        	|
 |--------------	|:-------------------------------------------------:	|
 | poo01    	| Object Oriented Programming Simple example how to use Classes. 	|
@@ -48,7 +49,8 @@ Chekout **build.gradle** to know about which class is used by the task.
 | poo03    	| Simple Example about **static** variables.           |
 ---
 
-####**Command Line - [projectNameDirectory]: commandLine)**
+####**Command Line**
+#####[Path: commandLine]
 | [task] 	      |                 Description                        	|
 |--------------	|:-------------------------------------------------:	|
 | cmdline01    	| Simple example how to use command line arguments. 	|
@@ -56,13 +58,15 @@ Chekout **build.gradle** to know about which class is used by the task.
 | cmdline03    	| an example of how to use Options Management with [Apache Commons CLI](http://commons.apache.org/proper/commons-cli/index.html)          |
 ---
 
-####**Communication Protocols** - [projectNameDirectory]: communicationProtocols
+####**Communication Protocols**
+#####[Path: communicationProtocols]
 | [task] 	      |                 Description                        	|
 |--------------	|:-------------------------------------------------:	|
 | serial01    	| Simple serial communication example using [org.scream3r.serial](https://code.google.com/p/java-simple-serial-connector/) 	|
 ---
 
-####**Design Patterns - [projectNameDirectory]: designPattern**
+####**Design Patterns**
+#####[Path: designPattern]
 
 (more info: [tutorialspoint.com](http://www.tutorialspoint.com/design_pattern/design_pattern_quick_guide.htm))
 
@@ -77,27 +81,31 @@ Chekout **build.gradle** to know about which class is used by the task.
 | dp07 | Data Access Object Pattern	|
 ---
 
-####**Encription - [projectNameDirectory]: encryption**
+####**Encription**
+#####[Path: encryption]
 | [task] 	      |                 Description                        	|
 |--------------	|:-------------------------------------------------:	|
 | encrypt01 | A simple MD5 example using java.security.\* package.	|
 ---
 
-####**Encription - [projectNameDirectory]: encryption**
+####**Encription**
+#####[Path: events]
 | [task] 	      |                 Description                        	|
 |--------------	|:-------------------------------------------------:	|
 | event01 | A simple timer example using **ScheduledExecutorService** and **ScheduledFuture** from javapractices.com	|
-| event01 | A simple timer example using **Timer** and **TimerTask** from javapractices.com |
+| event02 | A simple timer example using **Timer** and **TimerTask** from javapractices.com |
 ---
 
 
-####**Logger - [projectNameDirectory]: logger**
+####**Logger**
+#####[Path: logger]
 | [task] 	      |                 Description                        	|
 |--------------	|:-------------------------------------------------:	|
 | logger01 | A simple example using SFL4J y LOG4J.	|
 ---
 
-####**Persistence - [projectNameDirectory]: persistence**
+####**Persistence**
+#####[Path: persistence]
 | [task] 	      |                 Description                        	|
 |--------------	|:-------------------------------------------------:	|
 | persistence01    	| Simple Text file Reader.	|
@@ -110,7 +118,8 @@ Chekout **build.gradle** to know about which class is used by the task.
 | persistence08   		| Simple example how use JPA.	|
 ---
 
-####**Random - [projectNameDirectory]: random**
+####**Random**
+#####[Path: random]
 | [task] 	      |                 Description                        	|
 |--------------	|:-------------------------------------------------:	|
 | random01    	| Genera números aleatorios utilizando el paquete [org.apache.commons.math3.random](http://commons.apache.org/proper/commons-math/)	|
