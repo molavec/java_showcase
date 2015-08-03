@@ -83,6 +83,14 @@ Chekout **build.gradle** to know about which class is used by the task.
 | encrypt01 | A simple MD5 example using java.security.\* package.	|
 ---
 
+####**Encription - [projectNameDirectory]: encryption**
+| [task] 	      |                 Description                        	|
+|--------------	|:-------------------------------------------------:	|
+| event01 | A simple timer example using **ScheduledExecutorService** and **ScheduledFuture** from javapractices.com	|
+| event01 | A simple timer example using **Timer** and **TimerTask** from javapractices.com |
+---
+
+
 ####**Logger - [projectNameDirectory]: logger**
 | [task] 	      |                 Description                        	|
 |--------------	|:-------------------------------------------------:	|

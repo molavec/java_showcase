@@ -28,6 +28,9 @@ project(':designPattern') {
 project(':encryption') {
     task hello << cl
 }
+project(':events') {
+    task hello << cl
+}
 project(':logger') {
     task hello << cl
 }
@@ -43,4 +46,3 @@ project(':random') {
 task showMeCache << {
   configurations.compile.each { println it }
 }
-
